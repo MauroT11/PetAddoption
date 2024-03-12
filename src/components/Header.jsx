@@ -78,33 +78,33 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/posts">
+              <Link href="/pets">
                 <span className="text-white hover:text-[#F6C90E]">Pets</span>
               </Link>
             </li>
             <li>
-              <Link href="/posts">
+              <Link href="/adoption">
                 <span className="text-white hover:text-[#F6C90E]">
                   Adoption
                 </span>
               </Link>
             </li>
             <li>
-              <Link href="/posts">
+              <Link href="/suppor_us">
                 <span className="text-white hover:text-[#F6C90E]">
                   Support us
                 </span>
               </Link>
             </li>
             <li>
-              <Link href="/posts">
+              <Link href="/about_us">
                 <span className="text-white hover:text-[#F6C90E]">
                   About us
                 </span>
               </Link>
             </li>
             <li>
-              <Link href="/posts">
+              <Link href="/contact">
                 <span className="text-white hover:text-[#F6C90E]">Contact</span>
               </Link>
             </li>
