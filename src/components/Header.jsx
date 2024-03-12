@@ -5,14 +5,19 @@ import Image from 'next/image';
 import logoImage from '../../public/paws_logo.png';
 import * as React from 'react';
 import { styled, alpha } from '@mui/material/styles';
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
-import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import { yellow } from '@mui/material/colors';
+import SvgIcon from '@mui/material/SvgIcon';
+
+function HomeIcon(props) {
+  return (
+    <SvgIcon {...props}>
+      <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+    </SvgIcon>
+  );
+}
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -74,7 +79,7 @@ export default function Header() {
           <ul className="flex space-x-4">
             <li>
               <Link href="/">
-                <span className="text-white hover:text-[#F6C90E]">Home</span>
+                <HomeIcon sx={{ color: yellow[600] }} />
               </Link>
             </li>
             <li>
