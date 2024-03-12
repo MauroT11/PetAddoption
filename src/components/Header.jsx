@@ -25,7 +25,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/posts">
+              <Link href="/pets">
                 <span className="text-white hover:text-[#F6C90E]">Pets</span>
               </Link>
             </li>
