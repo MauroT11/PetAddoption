@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import main_pic from '../../public/main_pic.jpg';
+import main_pic from '../../public/main_pic.png';
 import * as React from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
